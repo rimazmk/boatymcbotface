@@ -20,15 +20,15 @@ def get_link():
         if '.jpg' in url:
             return url
 
-def send_message():
-    print(slack_access_token)
+def send_message(channel):
     headers = {
         "Authorization": "Bearer " + slack_access_token,
         "Content-Type": "application/json"
     }
     data = {
-        "channel": "bottesting",
-        "text": "BOATS! " + get_link()
+        "channel": channel,
+        "text": get_link()
     }
-
+  
     return requests.post(SLACK_URL, json=data, headers=headers)
+    
