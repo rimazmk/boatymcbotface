@@ -1,4 +1,6 @@
 env/
 __pycache__/
 .vscode/
+boatymcbotface.egg-info
 .env
+.idea/
