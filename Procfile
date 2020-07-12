@@ -1,1 +1,1 @@
-web: gunicorn app:boatymcbotface
+web: gunicorn boatymcbotface:app
