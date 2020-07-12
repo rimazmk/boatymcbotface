@@ -19,6 +19,7 @@ multidict==4.7.6
 pyee==7.0.2
 pylint==2.5.3
 requests==2.24.0
+schedule==0.6.0
 six==1.15.0
 slack==0.0.2
 slackclient==2.7.2
