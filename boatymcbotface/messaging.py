@@ -4,7 +4,7 @@ from . import app
 from .utils import send_message
 
 
-SIGNING_SECRET = os.environ['SLACK_SIGNING_SECRET']
+SIGNING_SECRET = os.environ['SIGNING_SECRET']
 slack_events_adapter = SlackEventAdapter(SIGNING_SECRET, "/slack/events", app)
 
 
