@@ -5,7 +5,7 @@ import threading
 
 def job():
     print("running job")
-    send_picture("bottesting")
+    send_picture("general")
 
 
 def run_job():
