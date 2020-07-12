@@ -4,7 +4,7 @@ import os
 
 URL = "https://www.reddit.com/r/boats.json"
 SLACK_URL = "https://slack.com/api/chat.postMessage"
-headers = {'User-agent': 'rimaz's bot'}
+headers = {'User-agent': 'rimaz\'s bot'}
 slack_access_token = os.environ['ACCESS_TOKEN']
 
 
