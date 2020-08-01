@@ -9,7 +9,7 @@ def job():
 
 
 def run_job():
-    schedule.every().day.at("18:00").do(job)
+    schedule.every().sunday.at("12:00").do(job)
     while True:
         schedule.run_pending()
 
